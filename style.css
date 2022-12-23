@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&display=swap');
+
+*{
+    margin:0;
+}
+
+.container{
+   display: flex;
+}
+
+.esquerda{
+    background-image: url(../formulario/imagem/mata.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 30vw;
+    display: flex;
+    justify-content:center;
+
+}
+
+.imagen{
+    display:flex;
+    height: 20vh;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.425);
+   margin-top: 40%;
+   justify-content:center;
+   align-items: center;
+   color: aliceblue;
+}
+
+.imagen img{
+    height: 8vw;
+}
+
+
+.imagen h1{
+    font-size: 8vw;
+    font-family: 'Chivo Mono', monospace;
+ 
+
+}
+
+
+.direita{
+        background-color: rgb(0, 0, 0);
+        height: 100vh;
+        width: 70vw;
+        
+
+}
+
+
